@@ -1,0 +1,68 @@
+25-Aug-2018 13:02:12.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+25-Aug-2018 13:02:12.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+25-Aug-2018 13:02:12.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+25-Aug-2018 13:02:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2018 13:02:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2018 13:02:12.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2018 13:02:12.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+25-Aug-2018 13:02:12.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+25-Aug-2018 13:02:12.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2018 13:02:12.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\apache-tomcat-8.5.31
+25-Aug-2018 13:02:12.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\apache-tomcat-8.5.31
+25-Aug-2018 13:02:12.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\apache-tomcat-8.5.31\conf\logging.properties
+25-Aug-2018 13:02:12.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2018 13:02:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2018 13:02:12.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2018 13:02:12.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Aug-2018 13:02:12.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\apache-tomcat-8.5.31
+25-Aug-2018 13:02:12.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\apache-tomcat-8.5.31
+25-Aug-2018 13:02:12.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\apache-tomcat-8.5.31\temp
+25-Aug-2018 13:02:12.892 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+25-Aug-2018 13:02:12.892 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Aug-2018 13:02:12.892 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Aug-2018 13:02:14.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+25-Aug-2018 13:02:15.260 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2018 13:02:15.836 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2018 13:02:15.899 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2018 13:02:15.902 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2018 13:02:15.903 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5550 ms
+25-Aug-2018 13:02:16.033 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Aug-2018 13:02:16.033 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+25-Aug-2018 13:02:16.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\apache-tomcat-8.5.31\webapps\jenkins.war]
+25-Aug-2018 13:02:31.257 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Aug-2018 13:02:33.533 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\apache-tomcat-8.5.31\webapps\jenkins.war] has finished in [17,278] ms
+25-Aug-2018 13:02:33.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.31\webapps\docs]
+25-Aug-2018 13:02:33.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.31\webapps\docs] has finished in [137] ms
+25-Aug-2018 13:02:33.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.31\webapps\examples]
+25-Aug-2018 13:02:36.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.31\webapps\examples] has finished in [2,733] ms
+25-Aug-2018 13:02:36.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.31\webapps\host-manager]
+25-Aug-2018 13:02:36.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.31\webapps\host-manager] has finished in [95] ms
+25-Aug-2018 13:02:36.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.31\webapps\manager]
+25-Aug-2018 13:02:36.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.31\webapps\manager] has finished in [81] ms
+25-Aug-2018 13:02:36.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\apache-tomcat-8.5.31\webapps\ROOT]
+25-Aug-2018 13:02:36.671 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\apache-tomcat-8.5.31\webapps\ROOT] has finished in [51] ms
+25-Aug-2018 13:02:36.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2018 13:02:36.731 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2018 13:02:36.743 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 20839 ms
+25-Aug-2018 13:02:40.552 INFO [pool-6-thread-2] jenkins.InitReactorRunner$1.onAttained Started initialization
+25-Aug-2018 13:03:05.721 INFO [Loading plugins] jenkins.InitReactorRunner$1.onAttained Listed all plugins
+25-Aug-2018 13:03:29.661 INFO [Contributed.load] jenkins.InitReactorRunner$1.onAttained Prepared all plugins
+25-Aug-2018 13:03:29.712 INFO [pool-6-thread-5] jenkins.InitReactorRunner$1.onAttained Started all plugins
+25-Aug-2018 13:03:35.744 INFO [GitSCM.onLoaded] hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1.error Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+25-Aug-2018 13:03:40.457 INFO [NullIdDescriptorMonitor.verify] jenkins.InitReactorRunner$1.onAttained Augmented all extensions
+25-Aug-2018 13:03:42.079 INFO [pool-6-thread-4] jenkins.InitReactorRunner$1.onAttained Loaded all jobs
+25-Aug-2018 13:03:42.464 INFO [Download metadata thread] hudson.model.AsyncPeriodicWork$1.run Started Download metadata
+25-Aug-2018 13:03:43.790 INFO [Finalizing set up] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.StaticWebApplicationContext@9d78dcc: display name [Root WebApplicationContext]; startup date [Sat Aug 25 13:03:43 IST 2018]; root of context hierarchy
+25-Aug-2018 13:03:43.794 INFO [Finalizing set up] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@9d78dcc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@212180fb
+25-Aug-2018 13:03:43.819 INFO [Finalizing set up] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@212180fb: defining beans [authenticationManager]; root of factory hierarchy
+25-Aug-2018 13:03:44.724 INFO [Finalizing set up] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1ef22aab: display name [Root WebApplicationContext]; startup date [Sat Aug 25 13:03:44 IST 2018]; root of context hierarchy
+25-Aug-2018 13:03:44.726 INFO [Finalizing set up] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1ef22aab]: org.springframework.beans.factory.support.DefaultListableBeanFactory@145bf640
+25-Aug-2018 13:03:44.727 INFO [Finalizing set up] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@145bf640: defining beans [filter,legacy]; root of factory hierarchy
+25-Aug-2018 13:03:44.981 INFO [pool-6-thread-1] jenkins.InitReactorRunner$1.onAttained Completed initialization
+25-Aug-2018 13:03:45.457 INFO [Jenkins initialization thread] hudson.WebAppMain$3.run Jenkins is fully up and running
+25-Aug-2018 13:04:07.621 INFO [Download metadata thread] hudson.model.UpdateSite.updateData Obtained the latest update center data file for UpdateSource default
+25-Aug-2018 13:04:09.071 INFO [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+25-Aug-2018 13:04:09.375 INFO [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+25-Aug-2018 13:04:09.987 INFO [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+25-Aug-2018 13:04:14.959 INFO [Download metadata thread] hudson.model.DownloadService$Downloadable.load Obtained the updated data file for hudson.tools.JDKInstaller
+25-Aug-2018 13:04:14.969 INFO [Download metadata thread] hudson.model.AsyncPeriodicWork$1.run Finished Download metadata. 32,503 ms
