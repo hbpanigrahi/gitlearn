@@ -7,24 +7,10 @@
 16-Jul-2018 01:01:52.432 INFO [jenkins.util.Timer [#7]] hudson.model.AsyncPeriodicWork.doRun maven-repo-cleanup thread is still running. Execution aborted.
 16-Jul-2018 01:01:52.424 INFO [Workspace clean-up thread] hudson.model.AsyncPeriodicWork$1.run Started Workspace clean-up
 16-Jul-2018 01:01:53.554 WARNING [JmDNS(Saswati-PC.local.).State.Timer] javax.jmdns.impl.tasks.state.DNSStateTask.run Renewer(Saswati-PC.local.).run() exception 
- java.net.NoRouteToHostException: No route to host: Datagram send failed
-	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
-	at java.net.DatagramSocket.send(DatagramSocket.java:693)
-	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
-	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
-	at java.util.TimerThread.mainLoop(Timer.java:555)
-	at java.util.TimerThread.run(Timer.java:505)
+
 
 16-Jul-2018 01:01:53.557 WARNING [Saswati-PC.local..recover()] javax.jmdns.impl.JmDNSImpl.__recover RECOVERING
-16-Jul-2018 01:01:54.616 WARNING [JmDNS(Saswati-PC.local.).State.Timer] javax.jmdns.impl.tasks.state.DNSStateTask.run Canceler(Saswati-PC.local.).run() exception 
- java.net.NoRouteToHostException: No route to host: Datagram send failed
-	at java.net.TwoStacksPlainDatagramSocketImpl.send(Native Method)
-	at java.net.DatagramSocket.send(DatagramSocket.java:693)
-	at javax.jmdns.impl.JmDNSImpl.send(JmDNSImpl.java:1537)
-	at javax.jmdns.impl.tasks.state.DNSStateTask.run(DNSStateTask.java:131)
-	at java.util.TimerThread.mainLoop(Timer.java:555)
-	at java.util.TimerThread.run(Timer.java:505)
-
+16-Jul-2018 01:01:54.616 WARNING [JmDNS(Saswati-PC.local.).State.Timer] javax.jmdns.impl.tasks.state.DNSStateTask.run Canceler(Saswati-PC.local.).run() 
 16-Jul-2018 01:01:54.635 INFO [Workspace clean-up thread] hudson.model.AsyncPeriodicWork$1.run Finished Workspace clean-up. 2,199 ms
 16-Jul-2018 01:01:59.633 WARNING [Saswati-PC.local..recover()] javax.jmdns.impl.DNSStatefulObject$DefaultImplementation.waitForCanceled Wait for canceled timed out: DNS: Saswati-PC.local. state: canceling 1 task: null
 16-Jul-2018 01:02:04.636 WARNING [Saswati-PC.local..recover()] javax.jmdns.impl.DNSStatefulObject$DefaultImplementation.waitForCanceled Wait for canceled timed out: DNS: Saswati-PC.local. state: canceling 1 task: null
